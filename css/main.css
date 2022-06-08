@@ -153,15 +153,6 @@ footer a {
   p {
     font-size: 32px;
   }
-	body {
-		margin: 5em 1em 0em 1em;
-	}
-}
-
-@media only screen and (min-device-width: 551px) {
-	body {
-		margin: 1em 12em;
-	}
 }
 
 /*
@@ -272,7 +263,7 @@ footer a {
 */
 
 header {
-	margin: 1em 1em 0em 1em;
+	margin: 5em 1em 0em 1em;
 }
 
 .logo {
