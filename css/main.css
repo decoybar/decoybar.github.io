@@ -52,6 +52,7 @@ table {
   Custom styles
   ========================================
 */
+
 body {
 	background-color: #2b3056;
 	color: #f6f4e8;
@@ -70,7 +71,7 @@ sup {
 
 .mainbody {
 	text-align: center;
-	margin: 2em 14em;
+	margin: 2em 2em;
 }
 
 p {
@@ -147,6 +148,32 @@ footer a {
 .faq a {
 	border-bottom: 1px dotted #333;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 550px) {
+  p {
+    font-size: 32px;
+  }
+	body {
+		margin: 5em 1em 0em 1em;
+	}
+}
+
+@media only screen and (min-device-width: 551px) {
+	body {
+		margin: 1em 12em;
+	}
+}
+
+/*
+@media (max-width: 428px) {
+  footer a { font-size: 32px; }
+}
+
+@media (min-width: 429px) {
+  footer a { font-size: 20px; }
+}
+*/
+
 
 /*
   ========================================
@@ -245,7 +272,7 @@ footer a {
 */
 
 header {
-	margin-top: 1em;
+	margin: 1em 1em 0em 1em;
 }
 
 .logo {
