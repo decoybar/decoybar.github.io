@@ -214,6 +214,35 @@ footer a {
   ========================================
 */
 
+@media only screen and (max-device-width: 600px) {
+  p {
+    font-size: 32px;
+	}
+	header {
+		margin: 8em 1em 0em 1em;
+	}
+}
+
+@media only screen and (min-device-width: 768px) {
+	header {
+		margin: 2em 4em 0em 4em;
+	}
+}
+
+@media only screen and (min-device-width: 992px) {
+	header {
+		margin: 2em 8em 0em 8em;
+	}
+}
+
+@media only screen and (min-device-width: 1200px) {
+	header {
+		margin: 2em 14em 0em 14em;
+	}
+}
+
+
+/*
 
 @media only screen and (max-device-width: 480px) {
   p {
@@ -229,6 +258,8 @@ footer a {
 		margin: 2em 14em 0em 14em;
 	}
 }
+
+*/
 
 .logo {
   border-top: 4px solid #648880;
