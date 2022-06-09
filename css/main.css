@@ -214,52 +214,29 @@ footer a {
   ========================================
 */
 
+header div {
+	height: 6em;
+}
+
 @media only screen and (max-device-width: 600px) {
-  p {
+	p {
     font-size: 32px;
 	}
-	header {
-		margin: 8em 1em 0em 1em;
+	header img {
+		max-width: 90%;
+		text-align: center;
 	}
 }
 
-@media only screen and (min-device-width: 768px) {
-	header {
-		margin: 2em 4em 0em 4em;
+@media only screen and (min-device-width: 601px) {
+	header div {
+		display: none;
+	}
+	header img {
+		max-width: 50%;
+		text-align: center;
 	}
 }
-
-@media only screen and (min-device-width: 992px) {
-	header {
-		margin: 2em 8em 0em 8em;
-	}
-}
-
-@media only screen and (min-device-width: 1200px) {
-	header {
-		margin: 2em 14em 0em 14em;
-	}
-}
-
-
-/*
-
-@media only screen and (max-device-width: 480px) {
-  p {
-    font-size: 32px;
-	}
-	header {
-		margin: 8em 1em 0em 1em;
-	}
-}
-
-@media only screen and (min-device-width: 481px) {
-	header {
-		margin: 2em 14em 0em 14em;
-	}
-}
-
-*/
 
 .logo {
   border-top: 4px solid #648880;
@@ -271,13 +248,6 @@ footer a {
   padding: 40px 0 22px 0;
   text-transform: uppercase;
 }
-
-/*
-.tagline {
-  margin: 66px 0 22px 0;
-	text-align: right;
-} */
-
 
 /*
   ========================================
