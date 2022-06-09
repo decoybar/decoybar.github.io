@@ -219,9 +219,6 @@ header div {
 }
 
 @media only screen and (max-device-width: 600px) {
-	p {
-    font-size: 32px;
-	}
 	header img {
 		max-width: 90%;
 		text-align: center;
