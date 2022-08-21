@@ -118,6 +118,10 @@ footer a {
 	border-bottom: 1px dotted #333;
 }
 
+.hours {
+	font-size: 0.9em;
+}
+
 /*
   ========================================
   Grid
@@ -317,7 +321,7 @@ h5 {
 }
 
 strong {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 cite, em {
