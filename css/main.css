@@ -70,6 +70,12 @@ sup {
 	margin: 2em 2em;
 }
 
+.eventdesc {
+	font: 400 18px/22px "Nunito Sans", sans-serif;
+	text-align: center;
+	margin: 1em 8em;
+}
+
 p {
 	line-height: 1.5em;
 }
