@@ -73,7 +73,7 @@ sup {
 .eventdesc {
 	font: 400 18px/22px "Nunito Sans", sans-serif;
 	text-align: center;
-	margin: 1em 8em;
+	/*margin: 1em 8em;*/
 }
 
 p {
@@ -236,6 +236,9 @@ header div {
 	p {
 		font-size: 18px;
 	}
+	.eventdesc {
+		margin: 1em 8em;
+	}
 }
 
 @media only screen and (min-device-width: 601px) {
@@ -245,6 +248,9 @@ header div {
 	header img {
 		max-width: 50%;
 		text-align: center;
+	}
+	.eventdesc {
+		margin: 1em 2em;
 	}
 }
 
