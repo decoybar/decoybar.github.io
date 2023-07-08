@@ -100,6 +100,7 @@ nav a {
 
 .sectionheading {
 	text-tranform: uppercase;
+  margin-bottom: 0.7em;
 }
 
 .caption {
@@ -126,6 +127,8 @@ footer a {
 
 .hours {
 	font-size: 0.9em;
+  margin-bottom: 2em;
+
 }
 
 /*
