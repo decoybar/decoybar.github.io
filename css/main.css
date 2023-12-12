@@ -65,6 +65,10 @@ sup {
     font-size: 0.7em;
 }
 
+.stout {
+  padding-top: 10px;
+}
+
 .mainbody {
   text-align: center;
 	margin: 2em 2em;
