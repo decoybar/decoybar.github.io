@@ -138,6 +138,15 @@ footer a {
   margin-bottom: 2em;
 }
 
+.event {
+  font-size: 0.9em;
+  margin-bottom: 0.5em; 
+}
+
+.upcoming {
+  margin-bottom: 2em;
+}
+
 /*
   ========================================
   Grid
